@@ -46,8 +46,12 @@
 }
 
 .banner {
-  height: 115px;
+  height: 120px;
   background: #eee;
+}
+
+.banner img {
+  width: 100%;
 }
 
 .menu {
@@ -66,8 +70,8 @@
 .menu .container {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
-  width: calc(40px + 68px * 9 - 16px);
+  padding: 8px 16px 40px;
+  width: calc(32px + 72px * 9 - 12px);
 }
 
 .menu .container .item {
@@ -75,7 +79,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 16px;
+  margin-right: 12px;
 }
 
 .menu .container .item:nth-child(9n) {
@@ -83,7 +87,7 @@
 }
 
 .menu .container .item img {
-  width: 52px;
+  width: 60px;
 }
 
 .menu .container .item span {
