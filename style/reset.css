@@ -8,12 +8,30 @@ html {
 body,
 div,
 h2,
+a,
 span,
 input,
+img,
+ul,
+li,
 nav,
 main,
 section {
   margin: 0;
   padding: 0;
+  outline: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
 }
