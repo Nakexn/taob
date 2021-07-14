@@ -50,7 +50,11 @@
   background: #eee;
 }
 
-.banner img {
+.banner a {
+  display: block;
+}
+
+.banner a img {
   width: 100%;
 }
 
