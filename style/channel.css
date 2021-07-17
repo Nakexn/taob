@@ -78,11 +78,11 @@
 
 .channel .item .tag {
   font-size: 15px;
-  line-height: 13px;
-  padding: 3px 5px;
+  line-height: 15px;
+  padding: 4px;
   background-image: linear-gradient(to right, #ec6894, #eb4567);
   color: #fff;
-  border-radius: 5px;
+  border-radius: 4px;
   transform: scale(0.75);
   transform-origin: 0 50%;
 }
