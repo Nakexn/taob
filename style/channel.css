@@ -62,9 +62,20 @@
   background: #fff;
 }
 
+.channel .item .right.white {
+  position: relative;
+}
+
 .channel .item .left.white::before,
 .channel .item .right.white::before {
   display: none;
+}
+
+.channel .item .right.white img {
+  width: 68px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
 }
 
 .channel .item h3 {
