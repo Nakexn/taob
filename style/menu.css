@@ -55,7 +55,7 @@
 }
 
 .menu .bar .inner {
-  width: 10px;
+  width: 0;
   height: 3px;
   border-radius: 100px;
   background: #ff6d2a;
