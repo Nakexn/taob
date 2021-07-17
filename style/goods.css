@@ -1,12 +1,14 @@
 .goods {
   margin-top: 16px;
-  padding-bottom: calc(44px + 10px);
 }
+
 .goods .title {
-  font-size: 17px;
-  color: #ec5c2a;
-  text-align: center;
   margin-bottom: 10px;
+}
+
+.goods .title img {
+  width: 43%;
+  margin: 0 auto;
 }
 
 .goods .list {

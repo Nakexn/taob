@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 6px;
+  background: #4e525e;
+  padding: 16px 16px calc(45px + 16px);
+}
+
+.footer .button {
+  display: inline-block;
+  color: #fff;
+  padding: 8px 16px;
+  border: 1px solid #42454d;
+  background: #555965;
+  border-radius: 4px;
+}
+
+.footer .copyright {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 16px;
+}

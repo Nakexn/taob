@@ -25,7 +25,8 @@ ul,
 li,
 nav,
 main,
-section {
+section,
+footer {
   margin: 0;
   padding: 0;
   outline: 0;

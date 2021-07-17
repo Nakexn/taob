@@ -82,6 +82,11 @@
   margin-right: 4px;
 }
 
+.channel .item .two h3 {
+  width: calc(50% - 5px);
+  margin: 0;
+}
+
 .channel .item img {
   width: 62px;
   height: 62px;
