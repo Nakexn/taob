@@ -7,13 +7,25 @@ body {
   background-color: #f4f4f4;
 }
 
+.blue {
+  color: #50bdff !important;
+}
+
+.orange {
+  color: #f9a500 !important;
+}
+
+.red {
+  color: #ff611d !important;
+}
+
 .ellipsis {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
-h100x {
+.h100x {
   height: 100%;
 }
 

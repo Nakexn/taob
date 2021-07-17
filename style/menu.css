@@ -2,6 +2,7 @@
   background: #fff;
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .menu .scroll {
@@ -15,7 +16,7 @@
 .menu .container {
   display: flex;
   flex-wrap: wrap;
-  padding: 8px 16px 32px;
+  padding: 0 12px 20px;
   width: calc(32px + 72px * 9 - 12px);
 }
 
@@ -40,4 +41,22 @@
   font-size: 12px;
   color: #666;
   margin-top: 2px;
+}
+
+.menu .bar {
+  width: 50px;
+  height: 3px;
+  border-radius: 100px;
+  background: #d4d8de;
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu .bar .inner {
+  width: 10px;
+  height: 3px;
+  border-radius: 100px;
+  background: #ff6d2a;
 }
