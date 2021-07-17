@@ -51,10 +51,20 @@
 .channel .item .right::before {
   content: "";
   position: absolute;
-  width: 68px;
-  height: 68px;
+  width: 62px;
+  height: 62px;
   bottom: 5px;
   background-color: rgba(214, 67, 0, 0.05);
+}
+
+.channel .item .left.white,
+.channel .item .right.white {
+  background: #fff;
+}
+
+.channel .item .left.white::before,
+.channel .item .right.white::before {
+  display: none;
 }
 
 .channel .item h3 {
@@ -62,23 +72,23 @@
 }
 
 .channel .item img {
-  width: 68px;
-  height: 68px;
+  width: 62px;
+  height: 62px;
 }
 
 .channel .item .tag {
-  font-size: 20px;
-  line-height: 24px;
-  padding: 2px 6px;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 3px 5px;
   background-image: linear-gradient(to right, #ec6894, #eb4567);
   color: #fff;
   border-radius: 5px;
-  transform: scale(0.5);
+  transform: scale(0.75);
   transform-origin: 0 50%;
 }
 
 .channel .item .tag.good {
-  background-image: linear-gradient(to right, #67baf9, #6ab8f9);
+  background-image: linear-gradient(to right, #69bbf9, #57aff8);
 }
 
 .channel .item .tag.well {
