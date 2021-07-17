@@ -16,6 +16,10 @@ body {
   color: #ff611d !important;
 }
 
+.show {
+  opacity: 1 !important;
+}
+
 .ellipsis {
   overflow: hidden;
   white-space: nowrap;
@@ -48,6 +52,10 @@ body {
 
 .flex-column {
   flex-direction: column;
+}
+
+.jcc {
+  justify-content: center;
 }
 
 .jcsb {
