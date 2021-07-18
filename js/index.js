@@ -51,7 +51,7 @@ const easeInOutCubic = value => value < 0.5
   : 1 - cubic((1 - value) * 2) / 2;
 
 
-const eventName = document.hasOwnProperty("ontouchstart") ? "ontouchstart" : "click"
+const eventName = document.hasOwnProperty("ontouchstart") ? "ontouchstart" : "onclick"
 
 backTop.addEventListener(eventName, function () {
   // window.scrollTo(0, 0)
