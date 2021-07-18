@@ -54,7 +54,6 @@ const easeInOutCubic = value => value < 0.5
 const eventName = document.hasOwnProperty("ontouchstart") ? "touchstart" : "click"
 
 backTop.addEventListener(eventName, function () {
-  // window.scrollTo(0, 0)
   const el = document.documentElement || document.body;
   const beginTime = Date.now();
   const beginValue = el.scrollTop;
