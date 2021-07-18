@@ -4,6 +4,10 @@ body {
   background-color: #f4f4f4;
 }
 
+.bold {
+  font-weight: 700 !important;
+}
+
 .blue {
   color: #50bdff !important;
 }
