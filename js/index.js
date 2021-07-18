@@ -55,7 +55,7 @@ const eventName = document.hasOwnProperty("ontouchstart") ? "ontouchstart" : "cl
 
 backTop.addEventListener(eventName, function () {
   // window.scrollTo(0, 0)
-  const el = document.documentElement;
+  const el = document.documentElement || document.body;
   const beginTime = Date.now();
   const beginValue = el.scrollTop;
   const rAF = window.requestAnimationFrame || (func => setTimeout(func, 16));
