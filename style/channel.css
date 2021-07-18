@@ -104,15 +104,15 @@
 }
 
 .channel .item .tag.good {
-  background-image: linear-gradient(to right, #69bbf9, #57aff8);
+  background-image: linear-gradient(to right, #6abeff, #4eaffe);
 }
 
 .channel .item .tag.well {
-  background-image: linear-gradient(to right, #f8ce58, #f2b452);
+  background-image: linear-gradient(to right, #ffd35a, #ffbb4f);
 }
 
 .channel .item .tag.test {
-  background-image: linear-gradient(to right, #ee7c4a, #eb572b);
+  background-image: linear-gradient(to right, #ff8652, #ff5e2d);
 }
 
 .channel .news h3 {
