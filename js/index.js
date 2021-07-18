@@ -50,7 +50,10 @@ const easeInOutCubic = value => value < 0.5
   ? cubic(value * 2) / 2
   : 1 - cubic((1 - value) * 2) / 2;
 
-backTop.addEventListener('touchstart', function () {
+
+const eventName = document.hasOwnProperty("ontouchstart") ? "ontouchstart" : "click"
+
+backTop.addEventListener(eventName, function () {
   // window.scrollTo(0, 0)
   const el = document.documentElement;
   const beginTime = Date.now();
